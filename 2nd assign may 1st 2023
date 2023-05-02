@@ -1,0 +1,19 @@
+s={}
+n=int(input())
+for i in range(1,n+1):
+    l=[]
+    sno=int(input('enter student number:'))
+    sname=input('enter student name:')
+    sgroup=input('enter group:')
+    scollege=input('enter college name:')
+    pno=int(input('enter pn no:'))
+    l.append(sname)
+    l.append(sgroup)
+    l.append(scollege)
+    l.append(pno)
+    s[sno]=l
+x=int(input('enetr requred student no:'))
+print("sname:",s.get(x)[0])
+print("group:",s.get(x)[1])
+print("branch:",s.get(x)[2])
+print("phno:",s.get(x)[3])
