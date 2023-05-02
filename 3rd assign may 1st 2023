@@ -1,0 +1,6 @@
+l=[]
+print('enter 3 numbers:')
+for i in range(3):
+    n=int(input())
+    l.append(n)
+print('bigest of three is',max(l))
