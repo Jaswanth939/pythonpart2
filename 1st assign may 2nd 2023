@@ -1,0 +1,9 @@
+l=list(map(int,input().split()))
+bh={}
+for i in l:
+    if i not in bh:
+        bh[i]=1
+    else:
+        bh[i]=bh[i]+1
+x=int(input('enter number to find friqueany'))
+print(bh[x])
